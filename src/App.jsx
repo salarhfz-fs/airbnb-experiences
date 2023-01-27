@@ -1,9 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import Navbar from './components/Navbar'
+import './App.scss'
 
 function App() {
   return (
-    <h1>App</h1>
+    <div className="container">
+      <Navbar />
+    </div>
   )
 }
 

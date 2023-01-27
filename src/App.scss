@@ -1,5 +1,5 @@
 .container {
-    width: 44rem;
+    width: 55rem;
     margin: 0 auto;
     background-color: #FFFFFF;
 }
@@ -12,4 +12,32 @@
 .brand-img {
     width: 8.2rem;
     height: 2.5rem;
+}
+
+.hero {
+    &__img-container {
+        width: 70%;
+        margin: 2.6rem auto;
+
+        &__img {
+            width: 100%;
+        }
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 3.6rem;
+        line-height: 4rem;
+        margin-left: 3.6rem;
+        color: #000000;
+    }
+
+    &__desc {
+        font-weight: 300;
+        font-size: 16px;
+        margin-left: 3.6rem;
+        line-height: 1.8rem;
+        max-width: 32rem;
+        color: #222222;
+    }
 }

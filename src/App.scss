@@ -41,3 +41,79 @@
         color: #222222;
     }
 }
+
+.experiences {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    gap: 1rem;
+    overflow-x: auto;
+}
+
+.card {
+    width: 18rem;
+
+    &__img {
+        background-size: cover;
+        width: 100%;
+        min-width: 18rem;
+        height: 23.5rem;
+        border-radius: .9rem;
+
+        &__status {
+            font-weight: 400;
+            line-height: 1.1rem;
+            text-align: center;
+            color: #222222;
+            display: inline-block;
+            background: #FFFFFF;
+            border-radius: .2rem;
+            margin: 1.1rem 1.2rem;
+            padding: .5rem .6rem;
+        }
+    }
+
+    &__details {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        gap: .2rem;
+
+        &__rating-star {
+            width: 1.4rem;
+            height: 1.4rem;
+        }
+
+        &__rating {
+            font-weight: 300;
+            font-size: 1.2rem;
+            line-height: 1.3rem;
+            color: #222222;
+        }
+
+        &__review-count,
+        &__location {
+            font-weight: 300;
+            font-size: 1.2rem;
+            line-height: 1.3rem;
+            color: #918E9B;
+        }
+    }
+
+    &__title {
+        font-weight: 300;
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+        color: #222222;
+        margin: .9rem 0;
+    }
+
+    &__pricing {
+        strong {
+            font-weight: 600;
+            font-size: 1.2rem;
+            line-height: 1.3rem;
+            color: #222222;
+        }
+    }
+}
